@@ -12,12 +12,15 @@ li {
 a {
 	color: inherit;
 }
-a,
+a:link,
 a:visited {
 	text-decoration: none;
 }
 a:hover {
 	text-decoration: none;
+}
+img {
+	vertical-align: top;
 }
 h1,
 h2,
@@ -28,10 +31,17 @@ h6 {
 	font-weight: inherit;
 	font-size: inherit;
 }
-img {
-	vertical-align: top;
+input,
+button,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
 }
-
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
 body,
 html {
 	height: 100%;
