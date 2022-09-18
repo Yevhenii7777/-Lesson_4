@@ -48,14 +48,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
-/* Далі додано шрифт Roboto до тих що підключали взимку */
+/* Додаю шрифт Roboto до тих що підключали взимку */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 /* Підключення шрифтів з файлів в форматфх .woff2 та .woff, попередньо скачаних в форматі.ttf і трансфомованих через сайт https://transfonter.org/ (від недвавнього часу працює тільки через vpn або через https://anyconv.com/woff-converter/)  */
 
 /* так не варто робити, але в цілях тренування підключаю шрифт ще і скачаний з сайту https://fonts.google.com/ та трасформований до форматів .woff2 та .woff */
 
-@font-face {
+@font-face { 
 	font-family: "Roboto";
 	src: url("../fonts/Roboto-RegularItalic.woff2") format("woff2"), url("../fonts/Roboto-RegularItalic.woff") format("woff");
 	font-weight: 400;
@@ -188,6 +188,7 @@ h3 {
 	font-style: italic;
 	font-size: 15px;
 	font-weight: 400;
+	text-decoration: underline;
 	color: rgb(120, 105, 185);
 	word-spacing: 20px;
 }
